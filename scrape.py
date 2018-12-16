@@ -49,43 +49,27 @@ def edit_distance(str1, str2):
 # after, remove all the indices
 
 def remove_similar_names(names_list):
-    if isinstance(names_list[0], tuple):
-        names_tup = [i[2] for i in names_list]
-        indices_to_remove = []
-        for ind in range(len(names_tup) - 1):
-            if edit_distance(names_tup[ind], names_tup[ind + 1]) < 4:
-                print('\tfound similar names_tup:')
-                print('\t', names_tup[ind], names_tup[ind + 1])
-                indices_to_remove.append(ind)
-        print(indices_to_remove)
+    indices_to_remove = []
+    for ind in range(len(names_list) - 1):
+        if edit_distance(names_list[ind][2], names_list[ind + 1][2]) < 4:
+            print('\tfound similar names:')
+            print('\t', names_list[ind][2], names_list[ind + 1][2])
+            indices_to_remove.append(ind)
+    print(indices_to_remove)
 
-        num_removed = 0
-        for ind in indices_to_remove:
-            names_list.pop(ind - num_removed)
-            num_removed += 1
-        return names_list
-
-    else:
-        indices_to_remove = []
-        for ind in range(len(names_list) - 1):
-            if edit_distance(names_list[ind], names_list[ind + 1]) < 4:
-                print('\tfound similar names:')
-                print('\t', names_list[ind], names_list[ind + 1])
-                indices_to_remove.append(ind)
-        print(indices_to_remove)
-
-        num_removed = 0
-        for ind in indices_to_remove:
-            names_list.pop(ind - num_removed)
-            num_removed += 1
-        return names_list
+    num_removed = 0
+    for ind in indices_to_remove:
+        names_list.pop(ind - num_removed)
+        num_removed += 1
+    return names_list
 
 
-def scrape(filename):
+def scrape(html):
     from bs4 import BeautifulSoup
-    page = open(filename, 'r')
-    soup = BeautifulSoup(page, 'html.parser')
+    # page = open(filename, 'r')
+    # soup = BeautifulSoup(page, 'html.parser')
 
+    soup = BeautifulSoup(html, 'html.parser')
     table = soup.find('table')
     table_body = table.find('tbody')
 
@@ -104,38 +88,38 @@ def scrape(filename):
                     break
             if add:
                 data.append([ele for ele in cols if ele])
-                data_tuples.append(tuple([ele for ele in cols if ele]))
 
     data.pop(0)
-    for line in data:
-        if not len(line) < 3:
-            names.append(line[2])
 
 
 def main():
-    scrape('bigboard1.html')
-    scrape('bigboard2.html')
-    scrape('bigboard3.html')
-    scrape('bigboard4.html')
+    import requests
+    for i in range(11):
+        url = "fanspeak.com/ontheclock/preview.php?board_id=" + str(i)
+        print(url)
+        r = requests.get("http://" + url)
+        if hasattr(r, 'text'):
+            html = r.text
+            scrape(html)
+
+    # scrape('bigboard1.html')
+    # scrape('bigboard2.html')
+    # scrape('bigboard3.html')
+    # scrape('bigboard4.html')
 
 
 data = []
-names = []
-data_tuples = []
+
 if __name__ == '__main__':
-
-    from collections import OrderedDict
     main()
-    names = list((OrderedDict.fromkeys(names)))
-    sorted_names = sorted(names)
-    data_tuples = sorted(data_tuples, key=lambda tup: tup[2])
-    sorted_names = remove_similar_names(sorted_names)
-    data_tuples = remove_similar_names(data_tuples)
+    for i in data:
+        i[0] = int(i[0][:-1])
 
-    # for name in sorted_names:
-    #     print(name)
-    # print("length of names before: ", len(names))
-    # print("length of names after: ", len(sorted_names))
-    #
-    for tup in data_tuples:
-        print(tup)
+    data = sorted(data, key=lambda x: x[2])
+    data = remove_similar_names(data)
+    data = sorted(data, key=lambda x: (x.__getitem__(0), x.__getitem__(2)))
+
+    reranked_data = data
+    for i in range(len(reranked_data)):
+        reranked_data[i][0] = i + 1
+    print('# of players: ', len(reranked_data))
