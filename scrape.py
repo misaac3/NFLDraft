@@ -64,7 +64,7 @@ def remove_similar_names(names_list):
     return names_list
 
 
-def scrape(html):
+def fanspeak_scrape(html):
     from bs4 import BeautifulSoup
     # page = open(filename, 'r')
     # soup = BeautifulSoup(page, 'html.parser')
@@ -100,12 +100,8 @@ def main():
         r = requests.get("http://" + url)
         if hasattr(r, 'text'):
             html = r.text
-            scrape(html)
+            fanspeak_scrape(html)
 
-    # scrape('bigboard1.html')
-    # scrape('bigboard2.html')
-    # scrape('bigboard3.html')
-    # scrape('bigboard4.html')
 
 
 data = []
