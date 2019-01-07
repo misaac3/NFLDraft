@@ -15,6 +15,7 @@ class App extends Component {
     return (
       <div>
         < Header /> 
+        
         < Players />
       </div>
     );

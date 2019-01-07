@@ -7,9 +7,11 @@ export class Players extends Component {
     render() {
         console.log(data)
         return (
-            <ul>
-                {data.map(({name, position, school, rank}) => <Player name={name} position={position} school={school} rank={rank} />)}
-            </ul>
+            <div className="col-6">
+                <ul className="list-group">
+                    {data.map(({name, position, school, rank}) => <Player name={name} position={position} school={school} rank={rank} key={rank} />)}
+                </ul>
+            </div>
         )
     }
 }
