@@ -1,0 +1,340 @@
+﻿1: Nick Bosa, Edge, Ohio State
+2: Ed Oliver, IDL, Houston
+3: Jonah Williams, OL, Alabama
+4: Quinnen Williams, IDL, Alabama
+5: Greedy Williams, CB, LSU
+6: Devin White, LB, LSU
+7: Deionte Thompson, S, Alabama
+8: Clelin Ferrell, Edge, Clemson
+9: Greg Little, OL, Ole Miss
+10: N’Keal Harry, WR, Arizona State
+11: Rashan Gary, IDL, Michigan
+12: Dwayne Haskins, QB, Ohio State
+13: Josh Allen, Edge, Kentucky
+14: Byron Murphy, CB, Washington
+15: DeAndre Baker, CB, Georgia
+16: Jachai Polite, Edge, Florida
+17: Jeffery Simmons, IDL, Mississippi State
+18: DK Metcalf, WR, Ole Miss
+19: Raekwon Davis, IDL, Alabama
+20: Montez Sweat, Edge, Mississippi State
+21: David Edwards, OL, Wisconsin
+22: Dexter Lwarence, IDL, Clemson
+23: A.J. Brown, WR, Ole Miss
+24: Brian Burns, Edge, Florida State
+25: Noah Fant, TE, Iowa
+26: Mack Wilson, LB, Alabama
+27: Will Grier, QB, West Virginia
+28: Drew Lock, QB, Missouri
+29: Trayvon Mullen, CB, Clemson
+30: Marquise Brown, WR, Oklahoma
+31: Dalton Risner, OL, Kansas State
+32: Zach Allen, Edge, Boston College
+33: Yodney Cajuste, OL, West Virginia
+34: Dre’Mont Jones, IDL, Ohio State
+35: Daniel Jones, QB, Duke
+36: Christian Wilkins, IDL, Clemson
+37: Devin Bush, LB, Michigan
+38: Derrick Brown, IDL, Auburn
+39: Julian Love, CB, Notre Dame
+40: Taylor Rapp, S, Washington
+41: Kelvin Harmon, WR, NC State
+42: Beau Benzschawel, OL, Wisconsin
+43: Elgton Jenkins, OL, Mississippi State
+44: Joe Jackson, Edge, Miami
+45: Amani Oruwariye, CB, Penn State
+46: JJ Arcega-Whiteside, WR, Stanford
+47: Jerry Tillery, IDL, Notre Dame
+48: Trey Adams, OL, Washington
+49: Cody Ford, OL, Oklahoma
+50: Tyler Biadasz, OL, Wisconsin
+51: Jawan Taylor, OL, Florida
+52: Anfernee Jennings, LB, Alabama
+53: Michael Deiter, OL, Wisconsin
+54: Jaylon Ferguson, Edge, Louisiana Tech
+55: Jaquan Johnson, S, Miami
+56: Jarrett Stidham, QB, Auburn
+57: Oshane Ximines, Edge, Old Dominion
+58: Chauncey Gardner-Johnson, CB, Florida
+59: Deebo Samuel, WR, South Carolina
+60: Michael Jackson, CB, Miami
+61: Ryan Finley, QB, NC State
+62: David Montgomery, RB, Iowa State
+63: Michael Jordan, OL, Ohio State
+64: Damien Harris, RB, Alabama
+65: Bryce Love, RB, Stanford
+66: Kendall Sheffield, CB, Ohio State
+67: Irv Smith, TE, Alabama
+68: Chase Winovich, Edge, Michigan
+69: Chris Lindstrom, OL, Boston College
+70: Jalen Jelks, Edge, Oregon
+71: Johnathan Abram, S, Mississippi State
+72: Hakeem Butler, WR, Iowa State
+73: TJ Edwards, LB, Wisconsin
+74: Lukas Denis, S, Boston College
+75: Kris Boyd, CB, Texas
+76: Albert Okwuegbunam, TE, Missouri
+77: Joe Giles-Harris, LB, Duke
+78: Gerald Willis, IDL, Miami
+79: Collin Johnson, WR, Texas
+80: Rodney Anderson, RB, Oklahoma
+81: Anthony Johnson, WR, Buffalo
+82: Bryce Hall, CB, Virginia
+83: Tevon Conley, LB, Notre Dame
+84: Germaine Pratt, LB, NC State
+85: Caleb Wilson, TE, UCLA
+86: Shea Patterson, QB, Michigan
+87: Kaden Smith, TE, Stanford
+88: Parris Campbell, WR, Ohio State
+89: David Sills, WR, West Virginia
+90: Mitch Hyatt, OL, Clemson
+91: Isaiah Buggs, IDL, Alabama
+92: Kyler Murray, QB, Oklahoma
+93: Tre Lamar, LB, Clemson
+94: Jamal Peters, CB, Mississippi State
+95: Trevon Diggs, CB, Alabama
+96: TJ Hockensen, TE, Iowa
+97: Austin Bryant, Edge, Clemson
+98: Ross Pierschbacher, OL, Alabama
+99: Max Scharping, OL, Northern Illinois
+100: Daryl Williams, OL, Mississippi State
+101: Juan Thornhill, CB, Virginia
+102: Andre Dillard, OL, Washington State
+103: Troy Dye, LB, Oregon
+104: Ben Bredeson, OL, Michigan
+105: Garrett Bradbury, OL, NC State
+106: Bobby Evans, OL, Oklahoma
+107: Deondre Francois, QB, Florida State
+108: Justice Hill, RB, Oklahoma State
+109: Kaleb McGary, OL, Washington
+110: Ben Banogu, Edge, TCU
+111: Tyree Jackson, QB, Buffalo
+112: Dakota Allen, LB, Texas Tech
+113: Isaiah Prince, OL, Ohio State
+114:Riley Ridley, WR, Georgia
+115: Rashard Lawrence, IDL, LSU
+116: Damon Arnette, CB, Ohio State
+117: Kendall Joseph, LB, Clemson
+118: Jace Sternberger, TE, Texas A&M
+119: D’Andre Walker, Edge, Georgia
+120: Terrell Lewis, Edge, Alabama
+121: Darrell Henderson, RB, Memphis
+122: Jacob Eason, QB, Washington
+123: Nick Fitzgerald, QB, Mississippi State
+124: Myles Dorn, S, UNC
+125: Khalil Hodge, LB, Buffalo
+126: Alaric Jackson, OL, Iowa
+127: Clayton Thorson, QB, Northwestern
+128: Denzel Mims, WR, Baylor
+129: Justin Layne, CB, Michigan State
+130: Eric McCoy, OL, Texas A&M
+131: Brian Lewerke, QB, Michigan State
+132: Bryan Edwards, WR, South Carolina 
+133: Nathan Stanley, QB, Iowa
+134: Martez Ivey, OL, Florida
+135: Levonta Taylor, CB, Florida State
+136: Keelan Doss, WR, UC Davis
+137: Trevon Hill, Edge, Virginia Tech
+138: Isaiah Simmons, S, Clemson
+139: Delvon Randall, S, Temple
+140: Khaleke Hudson, LB, Michigan
+141:Mark Gilbert, CB, Duke
+142: Lavert Hill, CB, Michigan
+143: Connor McGovern, OL, Penn State
+144: Vosean Joseph, LB, Florida
+145: Trayvon Williams, RB, Texas A&M
+146: Kristian Fulton, CB, LSU
+147: Shaquille Quarterman, LB, Miami
+148: Cameron Smith, LB, USC
+149: Tyree St. Louis, OL, Miami
+150: Rock Ya-Sin, CB, Temple
+151: Marvell Tell, S, USC
+152: Garrett Brumfield, OL, LSU
+153: Calvin Anderson, OL, Texas
+154: Calvin Throckmorton, OL, Oregon
+155: Carl Granderson, Edge, Wyoming
+156:Dru Samia, OL, Oklahoma
+157: Porter Gustin, LB, USC
+158: Dawson Knox, TE, Mississippi State
+159: Terrone Prescod, OL, NC State
+160: Lil’Jordan Humphrey, WR, Texas
+161: Yousah Nijiman, OL, Virginia Tech
+162: Seun Idowu, LB, Pitt
+163: Iman Marshall, CB, USC
+164: Paddy Fisher, LB, Northwestern
+165: Christian Miller, LB, Alabama
+166: Hjalte Froholdt, OL, Arkansas
+167: Ben Burr-Kirven, LB, Washington
+168: Ugo Amadi, S, Oregon
+169: Nasir Adderley, S, Delaware
+170: Nate Herbig, OL, Stanford
+171: Benny Snell Jr, RB, Kentucky
+172: Sutton Smith, Edge, Northern Illinois
+173: Jordan Ta’amu, QB, Ole Miss
+174: Olive Spagnolo, IDL, Wisconsin
+175: Joejuan Williams, CB, Vanderbilt
+176: Jordan Brailford, Edge, Oklahoma State
+177: Blace Brown, CB, Troy
+178: Mark McLaurin, S, Mississippi State
+179: Mike Weber, RB, Ohio State
+180: Juwan Johnson, WR, Penn State
+181: Emmanuel Hall, WR, Missouri
+182: Charles Omenihu, Edge, Texas
+183: Jesse Burkett, OL, Stanford
+184: Sione Takitaki, LB, BYU
+185: Easton Stick, QB, North Dakota State
+186: Alijah Holder, CB, Stanford
+187: Marlon Davidson, Edge, Auburn
+188: Mike Edwards, S, Kentucky
+189: Marquis Young, RB, UMass
+190: D’Cota Dixon, S, Wisconsin
+191: Brandon Jones, S, Texas
+192: LJ Scott, RB, Michigan State
+193: Javon Hagan, S, Ohio
+194: Alex Bars, OL, Notre Dame
+195: Zack Bailey, OL, South Carolina
+196: Damien Prince, OL, Maryland
+197: Derwin Gray, OL, Maryland
+198: David Dowell, S, Michigan State
+199: Terry Beckner Jr, IDL, Missouri
+200: Myles Gaskin, RB, Washington
+201: DeMarcus Christmas, IDL, Florida State
+202: Miles Sanders, RB, Penn State
+203: Cody Thompson, WR, Toledo
+204: Jamel Dean, CB, Auburn
+205: Darnell Savage, CB, Maryland
+206: Andy Isabella, WR, UMass
+207: Isaac Nauta, TE, Georgia
+208: Jabari Zuniga, Edge, Florida
+209: Anthony Nelson, Edge, Iowa
+210: Chuck Harris, Edge, Buffalo
+211: McKenzie Milton, QB, UCF
+212: Ben Powers, OL, Oklahoma
+213: Ricky Walker, IDL, Virginia Tech
+214: Daniel Wise, IDL, Kansas
+215: DJ Wonnum, Edge, South Carolina
+216: JR Reed, S, Georgia
+217: A.T. Hall, OL, Stanford
+218: Scott Frantz, OL, Kansas State
+219: Stanley Morgan, WR, Nebraska
+220: Nate Davis, OL, Charlotte
+221: Jaylen Smith, WR, Louisville
+222: Youhanna Ghaifan, IDL, Wyoming
+223: Jah’Shawn Johnson, S, Texas Tech
+224: Javaris Davis, CB, Auburn
+225: Bobby Okereke, LB, Stanford
+226: Andrew Wingard, S, Wyoming
+227: Gary Jennings, WR, West Virginia
+228: Josh Oliver, TE, San Jose State
+229: Preston Williams, WR, Colorado State
+230: Maxx Crosby, Edge, Eastern Michigan
+231: Devin Singletary, RB, Florida Atlantic
+232: Christian Rector, Edge, USC
+233: Ken Webster, CB, Ole Miss
+234: DeMarkus Lodge, WR, Ole Miss
+235: Darrell Taylor, Edge, Tennessee
+236: Michael Pinckney, LB, Miami
+237: Kindle VIldor, CB, Georgia Southern
+238: Dennis Daley, OL, South Carolina
+239: Mitchell Wilcox, TE, South Florida
+240: Joe Gaziano, Edge, Northwestern
+241: Sheldrick Redwine, S, Miami
+242:Greg Gaines, IDL, Washington
+243: Hunter Renfrow, WR, Clemson
+244: Keenan Brown, TE, Texas State
+245: Corey Ballentine, CB, Washburn
+246: Zach Gentry, TE, Michigan
+247: Javon Kinlaw, IDL, South Carolina
+248: Lester Cotton, OL, Alabama
+249: Tyler Petite, TE, USC
+250: Wyatt Ray, Edge, Boston College
+251: Tommy Sweeny, TE, Boston College
+252: C.J. Conrad, TE, Kentucky
+253: Van Jefferson, WR, Florida
+254: Tyrie Cleveland, WR, Florida
+255: Tyre Bray, WR, Marshall
+256: Jake Hanson, OL, Oregon
+257: Darwin Thompson, RB, Utah State
+258: Dax Raymond, TE, Utah State
+259: Ron’quavion Tarver, WR, Utah State
+260: Dontavious Russell, IDLL, Auburn
+261: Sean Bunting, CB, Central Michigan
+262: Tyler Johnson, WR, Minnesota
+263: Deshaun Davis, LB, Auburn
+264: Jojo McIntosh, S, Washington
+265: Prince Tega Wanogho, OL, Auburn
+266: Karan Higdon, RB, Michigan
+267: Zedrick Woods, LB, Ole Miss
+268: Landis Durham, Edge, Texas A&M
+269: Chase Hansen, S, Utah
+270: Tytus Howard, OL, Alabama State
+271: Nick Harris, OL, Washington
+272: Montre Hartage, CB, Northwestern
+273: Matt Sokol, TE, Michigan
+274: Liam Eichenberg, OL, Notre Dame
+275: Jordan Miller, CB, Washington
+276: Kenny Wilekes, Edge, Michigan State
+277: Davante Davis, CB, Texas
+278: Ulysees Gilbert, LB, Akron
+279: Nick Westbrook, WR, Indiana
+280: KJ Hill, WR, Ohio State
+281: Derrick Baity, CB, Kentucky
+282: David Reese, LB, Florida
+283: Chuma Edoga, OL, USC
+284: Renell Wren, IDL, Arizona State
+285: Tyrel Dodson, LB, Texas A&M
+286: Juwon Young, LB, Marshall
+287: Cece Jefferson, Edge, Florida
+288: Jordan Jones, LB, Kentucky
+289: Chris Slayton, IDL, Syracuse
+290: Lonnie Johnson, CB, Kentucky
+291: Isaiah Johnson, CB, Houston
+292: Khalen Saunders, IDL, Western Illinois
+293: Logan Parker, TE, Southern Utah
+294: Daylon Mack, IDL, Texas A&M
+295: Kingleys Keke, IDL, Texas A&M
+296: Jordan Fuller, S, Ohio State
+297: Ului Lapuaho, OL, BYU
+298: Robert Hainsley, OL, Notre Dame
+299: Sam Mustipher, OL, Notre Dame
+300: Daelin Hayes, Edge, Notre Dame
+301: Drew Richmond, OL, Tennessee
+302: Caleb Kelly, LB, Oklahoma
+303: Nik Needham, CB, UTEP
+304: Olive Sagapolu, IDL, Wisconsin
+305: Lamical Perine, RB, Florida
+306: Mark Fields, CB, Clemson
+307: Foster Moreau, TE, LSU
+308: Raequan Williams, IDL, Michigan State
+309: Jalen Thompson, S, Washington State
+310: Khairi Clark, IDL, Florida
+311: Jamarius Way, WR, South Alabama
+312: Joe Dineen, LB, Kansas
+313: Daniel Imatorbhebhe, TE, USC
+314: Jackson Barton, OL, Utah
+315: Brock Ruble, OL, Toledo
+316: Jon’Vea Johnson, WR, Toledo
+317: Chase Claypool, WR, Notre Dame
+318: Azeez Al Shaair, LB, Florida Atlantic
+319: Sean Rawlings, OL, Ole Miss
+320: Landon Young, OL, Kentucky
+321: Jauan Jennings, WR, Tennessee
+322: Lamar Jackson, CB, Nebraska
+323: KeeSean Johnson, WR, Fresno State
+324: Kareem Orr, CB, Chattanooga
+325: Kendall Blanton, TE, Missouri
+326: Levi Brown, OL, Marshall
+327: Saquan Hampton, S, Rutgers
+328: Drue Tranquill, LB, Notre Dame
+329: Alec Eberle, OL, Florida State
+330: Jamal Davis, LB, Akron
+331: Andrew Van Ginkel, Edge, Wisconsin
+332: Clifton Duck, CB, Appalachian State
+333: Charles Wright, LB, Vanderbilt
+334: TJ McCoy, OL, Florida
+335: Ante Hall, LB, Northwestern
+336: Mook Reynolds, CB, Virginia Tech
+337: Chris Johnson, S, North Alabama
+338: Sean Krepsz, OL, Nevada
+339: Jared Weyler, OL, Minnesota
+340: Marquise Blair, S, Utah

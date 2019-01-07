@@ -1,2 +1,3 @@
 .idea
-nfl-draft/node_modules/
+nfl-draft/node_modules/.
+/venv
