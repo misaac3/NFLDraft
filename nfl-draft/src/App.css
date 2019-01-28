@@ -22,11 +22,28 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .row .btn {
+  float: right;
+  display: flex;
+  align-items: center;
+
 }
+
+.left, .right {
+  padding: 0;
+} */
+/* .left .list-group-item {
+    border-right: none;
+}
+.left .list-group-item:first-child {
+    border-top-right-radius: 0;
+}
+.left .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+}     
+.right .list-group-item:first-child {
+    border-top-left-radius: 0;
+}   
+.right .list-group-item:last-child {
+    border-bottom-left-radius: 0;
+} */
