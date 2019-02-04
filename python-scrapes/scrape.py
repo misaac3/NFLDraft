@@ -89,18 +89,18 @@ def fanspeak_scrape(html):
             if add:
                 data.append([ele for ele in cols if ele])
 
-    data.pop(0)
+    # data.pop(0)
 
 
 def main():
     import requests
-    for i in range(11):
-        url = "fanspeak.com/ontheclock/preview.php?board_id=" + str(i)
-        print(url)
-        r = requests.get("http://" + url)
-        if hasattr(r, 'text'):
-            html = r.text
-            fanspeak_scrape(html)
+    # for i in range(11):
+    url = "fanspeak.com/ontheclock/preview.php?board_id=" + str(3)
+    print(url)
+    r = requests.get("http://" + url)
+    if hasattr(r, 'text'):
+        html = r.text
+        fanspeak_scrape(html)
 
 
 
@@ -111,11 +111,28 @@ if __name__ == '__main__':
     for i in data:
         i[0] = int(i[0][:-1])
 
-    data = sorted(data, key=lambda x: x[2])
-    data = remove_similar_names(data)
-    data = sorted(data, key=lambda x: (x.__getitem__(0), x.__getitem__(2)))
+    # data = sorted(data, key=lambda x: x[2])
+    # data = remove_similar_names(data)
+    # data = sorted(data, key=lambda x: (x.__getitem__(0), x.__getitem__(2)))
 
-    reranked_data = data
-    for i in range(len(reranked_data)):
-        reranked_data[i][0] = i + 1
-    print('# of players: ', len(reranked_data))
+    print(data[0])
+    list_of_dicts = []
+    for i in range(len(data)):
+        d = data[i]
+        # print(d, type(d[0]))
+        list_of_dicts.append({"name": d[2], "position": d[1], "school": d[3], "rank": d[0]})
+
+    import json
+
+    data = json.dumps(list_of_dicts)
+
+    with open('Drafttek-Feb3-bigboard.json', 'w', encoding='utf-8') as f:
+        x = json.dumps(data, ensure_ascii=False)
+        x = x.replace("\\", "")
+        print(x)
+        f.write(x)
+
+    # reranked_data = data
+    # for i in range(len(reranked_data)):
+    #     reranked_data[i][0] = i + 1
+    # print('# of players: ', len(reranked_data))

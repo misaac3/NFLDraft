@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Team from './Team';
+// import Team from './Team';
+import RoundHeader from './RoundHeader'
 
 
 export class Teams extends Component {
@@ -10,36 +11,36 @@ export class Teams extends Component {
     this.state = {
       players: this.props.players,
       playerWasSelected: this.props.playerWasSelected,
+      pickWasSelected: this.props.pickWasSelected,
       teams: this.props.teams,
-      teamsToPlayer: this.props.teamsToPlayer
+      teamsToPlayer: this.props.teamsToPlayer,
+      rounds: Array.from(new Set(this.props.teams.map(p => p.pick.round)))
     }
 
   }
 
   componentWillReceiveProps(nextProps) {
     this.setState({ teams: nextProps.teams, teamsToPlayer: nextProps.teamsToPlayer });
-
   }
 
 
   render() {
-
     return (
-      <div className="col-6 list-group" >
-        <div className="list-group">
-          {this.state.teams.map((p) =>
-            < Team
-              pick={p}
-              playerPicked={
-                this.state.players[this.state.teamsToPlayer[(p.key) - 1] - 1]
-              }
+      <div className='col-6'>
 
-              active="active"
-              pickWasSelected={this.props.pickWasSelected}
-            />)}
-        </ div>
+        {this.state.rounds.map(round =>
+          <RoundHeader
+            pickWasSelected={this.state.pickWasSelected}
+            teams={this.state.teams}
+            players={this.state.players}
+            teamsToPlayer={this.state.teamsToPlayer}
+            round={round}
+            key={round}
+          />
+        )}
+      </div>
 
-      </div >
+
     )
   }
 }

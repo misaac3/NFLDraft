@@ -22,7 +22,8 @@ class Player extends Component {
         id={this.props.rank}
         onClick={this.playerClick.bind(this, this.props.player)}
         style={{
-          backgroundColor: this.state.player.isSelected ? '#37BC9B' : 'white'
+          backgroundColor: this.state.player.isSelected ? '#37BC9B' : 'white',
+          position: 'static',
         }}
       >
 
