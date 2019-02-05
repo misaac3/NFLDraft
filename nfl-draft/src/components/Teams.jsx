@@ -26,7 +26,7 @@ export class Teams extends Component {
 
   render() {
     return (
-      <div className='col-6'>
+      <div className='col-6 text-small'>
 
         {this.state.rounds.map(round =>
           <RoundHeader
@@ -36,6 +36,7 @@ export class Teams extends Component {
             teamsToPlayer={this.state.teamsToPlayer}
             round={round}
             key={round}
+            
           />
         )}
       </div>

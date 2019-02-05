@@ -13,9 +13,10 @@ export class Team extends Component {
     }
 
     clicked = (pick) => {
-        console.log('team clicked')
-        this.state.pickWasSelected(pick)
-            
+        if (pick.pickNum !== 71) {
+            console.log('team clicked', pick)
+            this.state.pickWasSelected(pick)
+        }
     }
 
     componentWillReceiveProps(nextProps) {
@@ -24,18 +25,19 @@ export class Team extends Component {
     }
 
     render() {
+        // console.log(this.state)
+
         return (
             <div>
                 <li
-                    className="list-group-item"
+                    className="list-group-item text-sm-left"
                     onClick={this.clicked.bind(this, this.state.pick)}
                     style={{
                         backgroundColor: this.state.pick.isSelected ? '#37BC9B' : 'white'
                     }}
                 >
 
-                    {/* <h4> <img src={ATL} alt='ARZ' width="10%" height='10%' /> {this.state.pick.team}</h4> */}
-                    <h4> {this.state.pick.team}</h4>
+                    <h5> {this.state.pick.team}</h5>
                     Round {this.state.pick.round}, Pick {this.state.pick.pickNumInRound}
                     <br />
                     Pick # {this.state.pick.pickNum}

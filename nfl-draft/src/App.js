@@ -14,6 +14,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     const teams = teamorder.map(({ team, pickNum, round, pickNumInRound }) => {
+      console.log(pickNum)
       return { pick: { team, pickNum, round, pickNumInRound, isSelected: false, isPicked: false, playerPicked: null }, key: pickNum };
     });
 
@@ -111,6 +112,8 @@ class App extends Component {
 
 
       let team = teams[pickNum - 1]
+
+      console.log(team, pickNum)
       team.pick.isSelected = true;
       teams[pickNum - 1] = team;
       if (this.state.pickSelected != null) {
