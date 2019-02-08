@@ -8,13 +8,13 @@ export class Team extends Component {
 
         const { pick } = this.props.pick
         this.state = {
-            pick, playerPicked: this.props.playerPicked, pickWasSelected: this.props.pickWasSelected
+            pick, playerPicked: this.props.playerPicked, pickWasSelected: this.props.pickWasSelected, forTrade: this.props.forTrade
         }
     }
 
     clicked = (pick) => {
+        //TODO Forfeited picks (giants)
         if (pick.pickNum !== 71) {
-            console.log('team clicked', pick)
             this.state.pickWasSelected(pick)
         }
     }
@@ -25,12 +25,11 @@ export class Team extends Component {
     }
 
     render() {
-        // console.log(this.state)
 
         return (
             <div>
                 <li
-                    className="list-group-item text-sm-left"
+                    className={this.state.forTrade ? "list-group-item" : "list-group-item text-sm-left py-3"}
                     onClick={this.clicked.bind(this, this.state.pick)}
                     style={{
                         backgroundColor: this.state.pick.isSelected ? '#37BC9B' : 'white'
@@ -43,6 +42,7 @@ export class Team extends Component {
                     Pick # {this.state.pick.pickNum}
                     <br />
                     {this.state.playerPicked ? this.state.playerPicked.player.name : null}
+                    {this.state.pick.pickNum === 71 ? <b>(Forfieted)</b> : null}
 
                 </li>
 

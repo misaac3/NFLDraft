@@ -27,7 +27,6 @@ export class Players extends Component {
     filterPositionOnClick = (pos, e) => {
         let pf = this.state.positionFilter
 
-        // console.log('index of edge: ', pf.indexOf('Edge'))
         if (pf.includes(pos)) {
             pf = pf.filter(p => p !== pos)
         }
@@ -59,29 +58,34 @@ export class Players extends Component {
                     <button type="button" className="btn btn-primary ">Show Drafted Players</button>
                     <button type="button" className="btn btn-danger">Hide Drafted Players</button>
                 </div> */}
+                <div className="col-12">
 
+                    <div className="btn-group col-12" data-toggle='buttons' onClick={() => { this.setState({ hideDrafted: !this.state.hideDrafted }) }}>
+                        <label className={"btn btn-block " + (this.state.hideDrafted ? 'btn-secondary' : 'btn-success')}>
+                            {this.state.hideDrafted ? 'Check to show drafted players' : 'Check to hide drafted players'}
+                        </label>
+                    </div>
 
-                <div className="btn-group" data-toggle='buttons' onClick={() => { this.setState({ hideDrafted: !this.state.hideDrafted }) }}>
-                    <label className={"btn " + (this.state.hideDrafted ? 'btn-secondary' : 'btn-success')}>
-                        {this.state.hideDrafted ? 'Check to show drafted players' : 'Check to hide drafted players'}
-                    </label>
-                </div>
-                <div className='row'>
-                    <button className='btn btn-info float-left' onClick={() => this.setState({ positionFilter: this.state.uniquePositions })}>Show All Positions</button>
-                    <button className='btn btn-info float-right' onClick={() => this.setState({ positionFilter: [] })}>Hide All Positions</button>
-                </div>
-                <br /><br />
-                <div className="row">
-                    {uniquePositions.map(pos =>
+                    <div className='row mb-2'>
+                        <div className="col-12">
+                            <button className='btn btn-info float-left' onClick={() => this.setState({ positionFilter: this.state.uniquePositions })}>Show All Positions</button>
+                            <button className='btn btn-info float-right' onClick={() => this.setState({ positionFilter: [] })}>Hide All Positions</button>
+                        </div>
+                    </div>
+                    <div className='row mb-2'>
+                        <div className="col-12">
+                            {uniquePositions.map(pos =>
 
-                        <PositionButton
-                            filterPosition={this.filterPositionOnClick}
-                            pos={pos}
-                            show={this.state.positionFilter.includes(pos)}
-                            key={pos}
-                        />
+                                <PositionButton
+                                    filterPosition={this.filterPositionOnClick}
+                                    pos={pos}
+                                    show={this.state.positionFilter.includes(pos)}
+                                    key={pos}
+                                />
 
-                    )}
+                            )}
+                        </div>
+                    </div>
                 </div>
                 <div
                     className="list-group"
